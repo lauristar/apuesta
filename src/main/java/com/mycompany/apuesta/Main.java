@@ -10,7 +10,7 @@ public static void main(String[] args) {
 Apuesta miApuesta;
 int miDinero;
 
-miApuesta = new Apuesta(1000, 4, 2);
+miApuesta = new Apuesta(2000, 4, 2);
 try {
 System.out.println("Apostando...");
 miApuesta.apostar(0);
@@ -26,5 +26,7 @@ System.out.println("Fallo al cobrar la apuesta");
 }
 miDinero = miApuesta.getDineroDisponible();
 System.out.println("El dinero que tengo tras las apuestas es " + miDinero);
+
+System.out.println("Este es un mensajepara modificar el codigo y hacer un nuevo commit y push a github " );
 }
 }

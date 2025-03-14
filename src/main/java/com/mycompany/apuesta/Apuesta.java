@@ -39,7 +39,7 @@ this.dineroDisponible = dineroDisponible;
 */
 public void apostar(int dinero) throws Exception {
 if (dinero <= 0) {
-throw new Exception("No se puede apostar menos de 1€");
+throw new Exception("Amigo! No se puede apostar menos de 1€");
 }
 
 if (dinero > dineroDisponible) {
